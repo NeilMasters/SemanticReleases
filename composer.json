@@ -1,0 +1,28 @@
+{
+    "type": "library",
+    "license": "MIT",
+    "name": "neilmasters/semanticreleases",
+    "description": "Utility to manage semantic release versions",
+    "authors": [
+        {
+            "name": "Neil Masters",
+            "email": "neil@neilmasters.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SemanticReleases\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SemanticReleases\\Tests\\": "tests/"
+        }
+    }
+}
